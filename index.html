@@ -6,16 +6,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 .grid-container {
     height: 100vh;
     border: 3px solid black;
     display: grid;
-    
+   
+
+     
 }
 .grid-item {
     background-color: white;
     border: 3px solid black;
+}
+.item-1{
+    height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item-2{
+    height: 550px;
 }
 
         </style>
@@ -26,6 +37,7 @@
         <div class="grid-item item-1"></div>
         <div class="grid-item item-2"></div>
         <div class="grid-item item-3"></div>
+        <div class="grid-item item-4"></div>
     </div>
 </body>
     </html>
